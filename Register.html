@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+	<head>
+        <meta charest="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lior's Website</title>
+        <link rel="stylesheet" type="text/css" href="_css/RegisterStyle.css">
+	</head>
+    
+    <body>
+    <div class="all_site">
+        <header>
+             <img id="signup" src="_images/signup.jpg">
+             <img id="signin" src="_images/signin.png">
+        </header>
+    <div class="form_contact">
+        <div class="form_up1">
+            <h2>הרשמה</h2>
+        </div>
+        <div class="form_up2">
+            <h2>התחברות</h2>
+        </div>
+        <div class="form_down1">
+        <form action="Index.html" method ="post">
+        <table>
+            <tr>
+            <td height="40" width="28%" align="center"><label><strong>שם מלא:</strong></label></td>
+            <td width="72%" align="right"><input type="text" name="user name" required autofocus placeholder="נא מלא שם"></td>
+            </tr>
+            <tr>
+            <td height="40" width="40%" align="center"><label><strong>שם משתמש:</strong></label></td>
+            <td width="72%" ><input type="text" name="user name" required/></td>
+            </tr>   
+            <tr>
+            <td height="40" align="center"><label><strong>סיסמא:</strong></label></td>
+            <td align="right"><input type="password" id="password" required autofocus placeholder="מורכב מאותיות ומספרים"/></td>
+            </tr>     
+            <tr>
+            <td height="40" align="center"><label><strong>Email:</strong></label></td>
+            <td align="right"><input type="email" name="mail" required/></td>
+            </tr>
+            <tr>
+            <td height="40" align="center"><label><strong>תאריך לידה:</strong></label></td>
+            <td align="right"><input type="date" name="day" required/></td>
+            </tr>
+            <tr>
+            <td height="40" align="center"><label><strong>מתעניין ב:</strong></label></td>
+            <td>
+            <select name="options">
+                <option value="1">משפחה</option>
+                <option value="2">בית</option> 
+                <option value="3">ילדים</option>  
+                <option value="4">אוכל</option>                   
+            </select>
+            </td>   
+            </tr>
+            <tr>
+                <td height="40" align="center"><strong>מין:</strong></td>
+                <td height="40">
+                <label>זכר</label>
+                <input type="radio" name="sog"/>
+                <label>נקבה</label>
+                <input type="radio" name="sog"/>
+                </td>
+                </tr>
+                <tr>
+                <td height="40" align="center"><label><strong>הנני מאשר שקראתי:</strong></label></td>
+                <td align="right"><input type="checkbox" name="confirm"/>
+                <a href="http://mayafiles.tase.co.il/RPdf/428001-429000/P428236-00.pdf" target="_blank">לתקנון</a></td>
+                </tr>
+            </table>
+        <br>
+        <button type="sumbit" id="button1">סיום</button>
+    </form>
+    </div>
+    <div class="form_down2">
+        <form action="Index.html" method ="post">
+        <table>
+            <tr>
+            <td height="40" width="40%" align="center"><label><strong>שם משתמש:</strong></label></td>
+            <td width="72%" ><input type="text" name="user name" required/></td>
+            </tr>   
+            <tr>
+            <td height="40" align="center"><label><strong>סיסמא:</strong></label></td>
+            <td align="right"><input type="password" id="password" required autofocus placeholder="מורכב מאותיות ומספרים"/></td>
+            <button type="sumbit" id="button2">התחבר</button>
+    </div> 
+    </div>
+    <p class="clear"></p>
+	</body>
+</html>

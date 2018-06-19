@@ -1,0 +1,107 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif; 
+    direction: rtl;
+	background-image: url(D:/JavaScript/DoItYourself/_images/background.png);
+	margin: 0;
+}
+
+.all_site{
+    width:1000px;
+    margin: 0 auto;
+	background-color: white;
+	height: 600px;
+}
+
+.all_site header #signup{
+	margin: 0 200px;
+	width: 150px;
+}
+
+.all_site header #signin{
+	width: 150px;
+	height: 100px;
+	margin: -110px 200px;
+	float: left;
+}
+
+.all_site .form_contact .form_up1{
+	border-radius:10px 10px 0px 0px;
+	background-color:#f5e8b1;
+	padding:10px 0;
+	margin: 0px 150px;
+	width:30%;	
+}
+
+.all_site .form_contact .form_up2{
+	border-radius:10px 10px 0px 0px;
+	background-color:#f5e8b1;
+	padding:10px 0;
+	margin: -50px 130px;
+	width:30%;	
+	float: left;
+}
+
+.all_site .form_contact .form_up1 h2{
+	margin: 0 100px;
+}
+
+.all_site .form_contact .form_up2 h2{
+	margin: 0 100px;
+}
+
+.all_site .form_contact .form_down1{
+	max-width:300px;
+	margin: 100px 150px;
+	height:420px;
+	width:30%;
+	background-color:#f2ce3a;
+	position: absolute;
+	
+	max-height:433px;
+	margin-top: 5px;
+	border-radius:10px;
+	-webkit-box-shadow: 3px 3px 6px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    3px 3px 6px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         3px 3px 6px 0px rgba(50, 50, 50, 0.75);
+}
+
+.all_site form #button1{
+	font-size:20px;
+	background-color:rgba(0,0,0,1.00);
+	color:rgba(255,255,255,1.00);
+	width:60px;
+	height:30px;
+	margin: -10px 110px
+}
+
+.all_site .form_contact .form_down2{
+	max-width:300px;
+	position: absolute;
+	margin:-5px 570px;
+	height:180px;
+	width:30%;
+	background-color:#f2ce3a;
+
+	max-height:433px;
+	margin-top: 5px;
+	border-radius:10px;
+	-webkit-box-shadow: 3px 3px 6px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    3px 3px 6px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         3px 3px 6px 0px rgba(50, 50, 50, 0.75);
+}
+
+.all_site form #button2{
+	font-size:20px;
+	background-color:rgba(0,0,0,1.00);
+	color:rgba(255,255,255,1.00);
+	width:100px;
+	height:30px;
+	position: absolute;
+	margin: 110px 110px;
+}
+
+p.clear{
+	clear: both;
+}
+
