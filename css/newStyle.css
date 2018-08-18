@@ -1,0 +1,46 @@
+.mb-4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar{
+    direction: rtl;
+}
+
+.mr-auto{
+    margin: 0 450px;
+}
+
+.nav-item{
+    padding-left: 20px;
+}
+
+.col-md-6:hover{
+    transform:scale(1.1,1.1);
+    transition:1s;
+}
+
+.col-md-6 img{
+    width: 550px;
+    height: 350px;
+}
+
+.col-md-6 h2{
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+    position: relative;
+    bottom: 40%;
+    color:white;
+    text-align: center;
+}
+
+.col-md-6 a{
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+    position: relative;
+    bottom: 50%;
+    color:white;
+    text-align: center;
+    font-size: 1.2em;
+    display: inline-block;
+    text-decoration: none;
+}
